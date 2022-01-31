@@ -1,0 +1,33 @@
+
+.navbar{
+  background-color: transparent;
+}
+
+.list-group{
+  list-style: disc;
+}
+.notificationimage{
+  height: 25px;
+  width: 25px;
+}
+/* .aligncenter{
+  display: flex;
+  justify-content: center;
+} */
+@media screen and (max-width: 600px) {
+  #haiahi{
+    margin-left: -15vw;
+    
+    
+  }
+  iframe{
+    width: 250px;
+  }
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 100;
+}
